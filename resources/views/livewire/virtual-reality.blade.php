@@ -1,8 +1,5 @@
     <div class="relative mx-4 mt-4 rounded-2xl"
         style="background-image: url('../assets/img/vr-bg.jpg'); background-size: cover">
-
-
-
         <main class="xl:ml-68.5 ease-soft-in-out mt-1 rounded-xl transition-all duration-200">
             <div class="relative md:scale-70 min-h-85-screen">
                 <div class="container">
