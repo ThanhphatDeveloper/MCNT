@@ -385,7 +385,7 @@
         sidenav-card>
         <div class="mb-7.5 absolute h-full w-full rounded-2xl bg-cover bg-center"
           style="background-image: url('../assets/img/curved-images/white-curved.jpeg')"></div>
-        <div class="relative z-20 flex-auto w-full p-4 text-left text-white">
+        <!-- <div class="relative z-20 flex-auto w-full p-4 text-left text-white">
           <div
             class="flex items-center justify-center w-8 h-8 mb-4 text-center bg-white bg-center rounded-lg icon shadow-soft-2xl">
             <i class="top-0 z-10 text-transparent ni ni-diamond text-size-lg bg-gradient-slate bg-clip-text opacity-80"
@@ -396,15 +396,15 @@
             <p
               class="mt-0 mb-4 font-semibold leading-tight text-size-xs {{ (Request::is('rtl') ? 'text-right' : '') }}">
               Please check our docs</p>
-            <a href="https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/soft-ui-dashboard/"
+            <a href=""
               target="_blank"
               class="inline-block w-full px-8 py-2 mb-0 font-bold text-center text-black uppercase transition-all ease-in bg-white border-0 border-white rounded-lg shadow-soft-md bg-150 leading-pro text-size-xs hover:shadow-soft-2xl hover:scale-102">Documentation</a>
           </div>
-        </div>
+        </div> -->
       </div>
       <!-- pro btn  -->
       <a class="inline-block w-full px-6 py-3 my-4 font-bold text-center text-white uppercase align-middle transition-all ease-in border-0 rounded-lg select-none shadow-soft-md bg-150 bg-x-25 leading-pro text-size-xs bg-gradient-fuchsia hover:shadow-soft-2xl hover:scale-102"
-        href="https://www.creative-tim.com/product/soft-ui-dashboard-pro-tall" target="_blank">Upgrade to pro</a>
+        href="" target="_blank">Trở về trang chủ</a>
     </div>
   </aside>
 
