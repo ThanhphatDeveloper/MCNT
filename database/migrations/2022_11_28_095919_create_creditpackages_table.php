@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('creditpackages', function (Blueprint $table) {
-            $table->id("ID_creditpackage")->autoIncremented();
+            $table->id()->autoIncremented();
             $table->string("recharge");
             $table->integer("AmountCredit");
             $table->decimal("price");

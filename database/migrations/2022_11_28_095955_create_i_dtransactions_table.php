@@ -14,8 +14,8 @@ return new class extends Migration
     public function up()
     {
         Schema::create('i_dtransactions', function (Blueprint $table) {
-            $table->id("Transaction")->autoIncremented();
-            $table->integer("IDcreditpackage");
+            $table->id()->autoIncremented();
+            
             $table->softDeletes();
             $table->timestamps();
         });

@@ -14,8 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('historyplays', function (Blueprint $table) {
-            $table->id("IDhistory")->autoIncremented();
-            $table->string("IDuser");
+            $table->id()->autoIncremented();
             $table->integer("rightanswer");
             $table->integer("scores");
             $table->softDeletes();

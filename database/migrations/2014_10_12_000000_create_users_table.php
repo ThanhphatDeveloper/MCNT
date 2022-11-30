@@ -20,7 +20,7 @@ return new class extends Migration
             // $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('phone')->nullable();
-            $table->integer("credit");
+            $table->integer("credit")->nullable();
             // $table->string('location')->nullable();
             // $table->text('about')->nullable();
             $table->rememberToken();

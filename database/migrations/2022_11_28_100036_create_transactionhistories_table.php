@@ -14,9 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('transactionhistories', function (Blueprint $table) {
-            $table->integer("ID_Transaction");
-            $table->integer("IDuser");
-            $table->integer("IDcreditpackage");
+            
             $table->date("Daytrading");
             $table->softDeletes();
 
